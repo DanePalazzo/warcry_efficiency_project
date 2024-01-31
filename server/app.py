@@ -10,7 +10,7 @@ import traceback
 load_dotenv()
 
 # Local imports
-from config import socket_io, app, db, api, os
+from config import app, db, api, os
 
 
 @app.errorhandler(404)
